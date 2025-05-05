@@ -1,0 +1,12 @@
+পল্লি ডেভেলপার  - Construction and Building Development site
+
+01.	Home 
+02.	About Us
+03.	MD Speech 
+04.	Top Management 
+05.	Projects
+06.	Testimonials 
+07.	Images 
+08.	Videos
+09.	Blog 
+10.	Contact

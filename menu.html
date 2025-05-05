@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="menu/navbar.css">
+    <link rel="stylesheet" href="menu/responsive.css"> 
+<body>
+ 
+  <!-- ✅ Navigation Bar -->
+  <header id="navbar">
+    <div class="container">
+        <div class="logo">
+            <a href="#">LOGO</a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-right">
+            <a href="#" class="btn btn-signin">Sign In</a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ✅ Sticky Navigation -->
+<div id="sticky-navbar" class="hidden">
+    <div class="container">
+        <div class="logo">
+            <a href="#">LOGO</a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="nav-right">
+            <a href="#" class="btn btn-signin">Sign In</a>
+        </div>
+    </div>
+</div>
+
+<!-- Dummy Content -->
+<main>
+    <section style="height: 200vh; padding: 50px;">
+        <h1>Scroll Down to See Sticky Menu</h1>
+    </section>
+</main>
+
+ 
+
+    <!-- Bootstrap JS & Custom JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/theme.js"></script> <!-- Theme script -->
+    <script>
+        // Mobile Menu Toggle
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+});
+
+// Sticky Navbar on Scroll
+const navbar = document.getElementById('navbar');
+const stickyNavbar = document.getElementById('sticky-navbar');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 200) {
+        stickyNavbar.classList.remove('hidden');
+    } else {
+        stickyNavbar.classList.add('hidden');
+    }
+});
+
+    </script>
+</body>
+</html>
