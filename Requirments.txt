@@ -3,9 +3,9 @@
 01.	Home 
 02.	About Us -Done
 03.	MD Speech - Done
-04.	Top Management - 
-05.	Projects - 
-06.	Testimonials -  
+04.	Top Management - Done
+05.	Projects - Done
+06.	Testimonials -  Done
 07.	Images - 
 08.	Videos - 
 09.	Blog - 

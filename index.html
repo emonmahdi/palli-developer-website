@@ -23,6 +23,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
 
+    <!-- Lightbox2 CSS & JS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
     <!-- AOS Animation -->
     <link
       rel="stylesheet"
@@ -414,80 +417,338 @@
     </section>
     <!--==================== Projects Section End ====================-->
     <!--==================== Top Management Section Start ====================-->
-<section class="top-management py-5" id="management">
+    <section class="top-management py-5" id="management">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-uppercase text-primary">Leadership</h5>
+          <h2 class="fw-bold">Meet Our Top Management</h2>
+          <p class="text-muted">
+            The visionary minds behind our success, driving innovation, trust,
+            and excellence.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Management Member 1 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div
+              class="team-card shadow-sm rounded overflow-hidden position-relative"
+            >
+              <img
+                src="assets/images/top-management/m2.avif"
+                class="img-fluid team-img"
+                alt="Managing Director"
+              />
+              <div class="team-overlay p-3">
+                <h5 class="text-white mb-1">Md. Shafiqul Islam</h5>
+                <p class="text-white-50">Managing Director</p>
+                <p class="quote text-white mt-2">
+                  "We don't just build structures; we build futures."
+                </p>
+                <div class="social-icons mt-3">
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="text-white"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat similar blocks for other members -->
+          <!-- Management Member 2 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div
+              class="team-card shadow-sm rounded overflow-hidden position-relative"
+            >
+              <img
+                src="assets/images/top-management/m1.avif"
+                class="img-fluid team-img"
+                alt="Director"
+              />
+              <div class="team-overlay p-3">
+                <h5 class="text-white mb-1">Engr. Sahid Hasan</h5>
+                <p class="text-white-50">Director, Engineering</p>
+                <p class="quote text-white mt-2">
+                  "Technical brilliance and sustainable practices lead the way."
+                </p>
+                <div class="social-icons mt-3">
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="text-white"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Management Member 3 -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="team-card shadow-sm rounded overflow-hidden position-relative"
+            >
+              <img
+                src="assets/images/top-management/m3.avif"
+                class="img-fluid team-img"
+                alt="COO"
+              />
+              <div class="team-overlay p-3">
+                <h5 class="text-white mb-1">Faisal Rahman</h5>
+                <p class="text-white-50">Chief Operating Officer</p>
+                <p class="quote text-white mt-2">
+                  "Execution and attention to detail are our project pillars."
+                </p>
+                <div class="social-icons mt-3">
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="#" class="text-white me-2"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                  <a href="#" class="text-white"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--==================== Top Management Section End ====================-->
+    <!--==================== Testimonials Section Start ====================-->
+    <section class="testimonials-section py-5 bg-light" id="testimonials">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-uppercase text-primary">What Our Clients Say</h5>
+          <h2 class="fw-bold">Testimonials</h2>
+          <p class="text-muted">
+            Hear from our satisfied clients about their experience with Palli
+            Developer Ltd.
+          </p>
+        </div>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="carousel-inner">
+            <!-- First Slide with 2 Testimonials -->
+            <div class="carousel-item active">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div
+                    class="testimonial-box bg-white p-4 shadow rounded text-center h-100"
+                  >
+                    <img
+                      src="assets/images/clients/c3.avif"
+                      class="rounded-circle mb-3"
+                      width="80"
+                      height="80"
+                      alt="Client"
+                    />
+                    <h6 class="mb-0">Tanvir Hossain</h6>
+                    <small class="text-muted">Apartment Buyer</small>
+                    <p class="fst-italic mt-3">
+                      <i class="fas fa-quote-left text-primary me-2"></i>
+                      Choosing PDL was the best decision. Quality, trust and
+                      sustainability were all delivered as promised.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="testimonial-box bg-white p-4 shadow rounded text-center h-100"
+                  >
+                    <img
+                      src="assets/images/clients/c1.avif"
+                      class="rounded-circle mb-3"
+                      width="80"
+                      height="80"
+                      alt="Client"
+                    />
+                    <h6 class="mb-0">Farzana Ahmed</h6>
+                    <small class="text-muted">Business Owner</small>
+                    <p class="fst-italic mt-3">
+                      <i class="fas fa-quote-left text-primary me-2"></i>
+                      PDL transformed our commercial vision into reality.
+                      Exceptional service and attention to detail.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide with 2 Testimonials -->
+            <div class="carousel-item">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div
+                    class="testimonial-box bg-white p-4 shadow rounded text-center h-100"
+                  >
+                    <img
+                      src="assets/images/clients/c2.avif"
+                      class="rounded-circle mb-3"
+                      width="80"
+                      height="80"
+                      alt="Client"
+                    />
+                    <h6 class="mb-0">Engineer Saimon</h6>
+                    <small class="text-muted">Project Consultant</small>
+                    <p class="fst-italic mt-3">
+                      <i class="fas fa-quote-left text-primary me-2"></i>
+                      Their engineering standards and professionalism are
+                      unmatched in the industry. Highly recommended!
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="testimonial-box bg-white p-4 shadow rounded text-center h-100"
+                  >
+                    <img
+                      src="assets/images/clients/c3.avif"
+                      class="rounded-circle mb-3"
+                      width="80"
+                      height="80"
+                      alt="Client"
+                    />
+                    <h6 class="mb-0">Rafiq Islam</h6>
+                    <small class="text-muted">Landowner</small>
+                    <p class="fst-italic mt-3">
+                      <i class="fas fa-quote-left text-primary me-2"></i>
+                      PDL helped us utilize our land efficiently and built with
+                      unmatched quality. Very trustworthy team!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle p-2"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle p-2"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--==================== Testimonials Section End ====================-->
+<!-- ==================== Image Gallery Section Start ==================== --> 
+<section class="gallery-section py-5 bg-light" id="gallery">
   <div class="container">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <h5 class="text-uppercase text-primary">Leadership</h5>
-      <h2 class="fw-bold">Meet Our Top Management</h2>
-      <p class="text-muted">The visionary minds behind our success, driving innovation, trust, and excellence.</p>
+    <div class="text-center mb-5">
+      <h5 class="text-uppercase text-primary">Our Work in Focus</h5>
+      <h2 class="fw-bold">Image Gallery</h2>
+      <p class="text-muted">
+        Explore our recent constructions, architecture, and real estate visuals.
+      </p>
     </div>
 
-    <div class="row g-4">
-      <!-- Management Member 1 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="team-card shadow-sm rounded overflow-hidden position-relative">
-          <img src="assets/images/top-management/m2.avif" class="img-fluid team-img" alt="Managing Director">
-          <div class="team-overlay p-3">
-            <h5 class="text-white mb-1">Md. Shafiqul Islam</h5>
-            <p class="text-white-50">Managing Director</p>
-            <p class="quote text-white mt-2">
-              "We don't just build structures; we build futures."
-            </p>
-            <div class="social-icons mt-3">
-              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
+    <div class="row g-4 gallery-grid">
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g1.avif" alt="Gallery 1" />
+          <div class="overlay" data-index="0"><i class="fas fa-search-plus"></i></div>
         </div>
       </div>
 
-      <!-- Repeat similar blocks for other members -->
-      <!-- Management Member 2 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="team-card shadow-sm rounded overflow-hidden position-relative">
-          <img src="assets/images/top-management/m1.avif" class="img-fluid team-img" alt="Director">
-          <div class="team-overlay p-3">
-            <h5 class="text-white mb-1">Engr. Sahid Hasan</h5>
-            <p class="text-white-50">Director, Engineering</p>
-            <p class="quote text-white mt-2">
-              "Technical brilliance and sustainable practices lead the way."
-            </p>
-            <div class="social-icons mt-3">
-              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g2.avif" alt="Gallery 2" />
+          <div class="overlay" data-index="1"><i class="fas fa-search-plus"></i></div>
         </div>
       </div>
 
-      <!-- Management Member 3 -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="team-card shadow-sm rounded overflow-hidden position-relative">
-          <img src="assets/images/top-management/m3.avif" class="img-fluid team-img" alt="COO">
-          <div class="team-overlay p-3">
-            <h5 class="text-white mb-1">Faisal Rahman</h5>
-            <p class="text-white-50">Chief Operating Officer</p>
-            <p class="quote text-white mt-2">
-              "Execution and attention to detail are our project pillars."
-            </p>
-            <div class="social-icons mt-3">
-              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
-              <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g3.avif" alt="Gallery 3" />
+          <div class="overlay" data-index="2"><i class="fas fa-search-plus"></i></div>
         </div>
       </div>
 
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g4.avif" alt="Gallery 4" />
+          <div class="overlay" data-index="3"><i class="fas fa-search-plus"></i></div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g5.avif" alt="Gallery 5" />
+          <div class="overlay" data-index="4"><i class="fas fa-search-plus"></i></div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="gallery-item">
+          <img src="assets/images/gallery/g6.avif" alt="Gallery 6" />
+          <div class="overlay" data-index="5"><i class="fas fa-search-plus"></i></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!--==================== Top Management Section End ====================-->
 
- 
- 
+<!-- Custom Popup Modal -->
+<div class="image-modal" id="imageModal">
+  <span class="close-btn" id="closeBtn">&times;</span>
+  <img id="popupImage" />
+  <div class="nav-buttons">
+    <span class="prev" id="prevBtn">&#10094;</span>
+    <span class="next" id="nextBtn">&#10095;</span>
+  </div>
+</div>
+
+<!-- ==================== Image Gallery Section End ==================== -->
+
 
     <!--=================== Footer Section Start ===================-->
     <footer class="footer bg-dark text-light pt-5 pb-4" id="footer">
@@ -557,10 +818,16 @@
     <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="assets/js/typed.js"></script>
+    <script src="assets/js/imagePopup.js"></script>
+    <!-- Lightbox2 -->
+<!-- Lightbox2 CSS & JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
       AOS.init();
-    </script>
+    </script> 
+    
   </body>
 </html>

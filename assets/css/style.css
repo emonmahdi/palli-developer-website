@@ -310,6 +310,9 @@ textarea:focus {
   
 /* --------------Project Section End--------------- */
 /* --------------Top Management Section Start--------------- */
+.top-management{
+    background-color: #fff;
+}
 .team-card {
     position: relative;
     overflow: hidden;
@@ -355,6 +358,157 @@ textarea:focus {
   }
   
 /* --------------Top Management Section End--------------- */
+/* --------------Testimonial Section Start---------------   */
+.testimonials-section {
+    background: #f1f4f6;
+}
+.testimonial-item {
+    transition: all 0.3s ease-in-out;
+    min-height: 250px;
+  }
+  
+  .testimonial-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-size: 50% 50%;
+    padding: 10px;
+  }
+  
+  .testimonial-box {
+    transition: all 0.3s ease;
+  }
+  .testimonial-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+/* --------------Testimonial Section End--------------- */
+/* --------------Image Gallery Section Start--------------- */
+.gallery-section{
+  overflow: hidden;
+}
+/* .gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+} */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  display: block;
+  border-radius: 10px;
+}
+
+.gallery-item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Modal Popup */
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeIn 0.3s ease;
+  z-index: 3333333;
+}
+
+.image-modal img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.image-modal .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  transform: translateY(-50%);
+}
+
+.nav-buttons .prev,
+.nav-buttons .next {
+  color: white;
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* --------------Image Gallery Section End--------------- */
 
 /* --------------Footer Section Start--------------- */
 
