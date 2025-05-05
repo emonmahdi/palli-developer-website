@@ -232,6 +232,32 @@ textarea:focus {
   color: var(--accent-color);
 }
 /* --------------About Section End--------------- */
+/* --------------MD Speech Section Start--------------- */
+.md-speech-section {
+    background: #f1f4f6;
+    overflow: hidden;
+    color: #333;
+  }
+  
+  .md-speech-content h2 {
+    color: #1e2a38;
+  }
+  
+  .md-speech-content p {
+    line-height: 1.7;
+  }
+  
+  .md-speech-content h6 {
+    font-size: 1.1rem;
+    color: #1e2a38;
+  }
+  
+  .img-fluid.shadow-md {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+/* --------------MD Speech Section End--------------- */
 /* --------------Services Section Start--------------- */
 .services-section {
   background-color: #f8f9fa;
@@ -256,6 +282,7 @@ textarea:focus {
 }
 
 /* --------------Services Section End--------------- */
+
 /* --------------Footer Section Start--------------- */
 
 .footer {
