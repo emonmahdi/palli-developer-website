@@ -20,3 +20,68 @@ ref site:
 https://constrax.themescamp.com/industrial/
 
 https://constrax.themescamp.com/public/
+
+
+
+
+
+
+
+
+
+
+
+<div class="row g-4">
+          <!-- Brand Info -->
+          <div class="col-md-4" data-aos="fade-right">
+            <a href="index.html">
+              <img
+                src="assets/images/logo.png"
+                class="img-fluid mb-3"
+                width="100"
+                alt="PDL logo"
+              />
+            </a>
+            <p>
+              Palli Developer Ltd. is committed to excellence in real estate and
+              construction. With a legacy of trust and quality, we build not
+              just structures, but enduring communities and sustainable futures.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4" data-aos="fade-up">
+            <h5 class="text-uppercase mb-3">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#about" class="footer-link">About Us</a></li>
+              <li><a href="#services" class="footer-link">Our Services</a></li>
+              <li><a href="#projects" class="footer-link">Projects</a></li>
+              <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4" data-aos="fade-left">
+            <h5 class="text-uppercase mb-3">Contact Us</h5>
+            <p>
+              <i class="bi bi-geo-alt-fill me-2"></i>123 PDL Tower, Barisal,
+              Bangladesh
+            </p>
+            <p><i class="bi bi-envelope-fill me-2"></i>info@pdl.com</p>
+            <p><i class="bi bi-telephone-fill me-2"></i>+880 1700 000000</p>
+
+            <!-- Social Icons -->
+            <div class="mt-3">
+              <a href="#" class="social-icon me-3"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon me-3"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon me-3"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
