@@ -1,12 +1,22 @@
 পল্লি ডেভেলপার  - Construction and Building Development site
 
 01.	Home 
-02.	About Us -Done
+02.	About Us - Done
 03.	MD Speech - Done
 04.	Top Management - Done
 05.	Projects - Done
 06.	Testimonials -  Done
-07.	Images - 
+07.	Images - Done
 08.	Videos - 
 09.	Blog - 
 10.	Contact - 
+
+
+Old Site: https://pallidevelopersbd.com/ 
+
+
+ref site: 
+
+https://constrax.themescamp.com/industrial/
+
+https://constrax.themescamp.com/public/

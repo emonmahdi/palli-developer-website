@@ -509,6 +509,26 @@ textarea:focus {
 }
 
 /* --------------Image Gallery Section End--------------- */
+/* --------------Blog Section Start--------------- */
+.blog-section{
+  padding:50px 0;
+}
+.blog-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.date-badge {
+  font-size: 0.85rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.card-title {
+  font-size: 1.2rem;
+  margin:12px 0
+}
+.card-text{
+  margin:12px 0;
+}
+/* --------------Blog Section End--------------- */
 
 /* --------------Footer Section Start--------------- */
 
