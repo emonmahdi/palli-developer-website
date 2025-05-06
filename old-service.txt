@@ -1,0 +1,174 @@
+ <!--=================== Services Section Start ===================-->
+    <section class="services-section py-5" id="services">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2 class="fw-bold">Our Services</h2>
+          <p>
+            Excellence in every layer of our work — from foundation to finish.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Service Item -->
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <h5>Trustworthy and Reliable</h5>
+              <p>
+                Our strong reputation is built on honesty, transparency, and
+                commitment to clients.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-building"></i>
+              </div>
+              <h5>High-Grade Construction</h5>
+              <p>
+                We use top-tier materials and skilled craftsmanship for
+                long-lasting builds.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-drafting-compass"></i>
+              </div>
+              <h5>Modern Design</h5>
+              <p>
+                Innovative and elegant architectural designs to match modern
+                lifestyles.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-list-ul"></i>
+              </div>
+              <h5>Range of Choices</h5>
+              <p>
+                Various property types and budget options tailored to your
+                needs.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="500"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h5>Uncompromised Safety</h5>
+              <p>
+                We adhere to rigorous safety standards in every construction
+                phase.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-4"
+            data-aos="zoom-in"
+            data-aos-delay="600"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-headset"></i>
+              </div>
+              <h5>After-Sales Services</h5>
+              <p>
+                Continuous support even after handover ensures your peace of
+                mind.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="zoom-in"
+            data-aos-delay="700"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3">
+                <i class="fas fa-hands-helping"></i>
+              </div>
+              <h5>Going the Extra Mile</h5>
+              <p>
+                We go beyond expectations to deliver a personalized and smooth
+                experience.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-6"
+            data-aos="zoom-in"
+            data-aos-delay="800"
+          >
+            <div class="service-card p-4 shadow-sm text-center h-100">
+              <div class="service-icon mb-3"><i class="fas fa-award"></i></div>
+              <h5>Our Credentials</h5>
+              <p>
+                Certified excellence, recognized for ethical, environmental, and
+                quality standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================== Services Section End ===================-->
+
+    /* --------------Services Section Start--------------- */
+.services-section {
+  background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+.service-card {
+  border-radius: 12px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid var(--accent-color);
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+}
+
+/* --------------Services Section End--------------- */
