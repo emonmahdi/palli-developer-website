@@ -916,6 +916,49 @@
       </div>
     </section>
     <!-- ==================== Blog Section End ==================== -->
+<!-- ==================== Video Section Start ==================== -->
+<section class="video-section py-5" data-aos="fade-up">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-down">
+      <h5 class="text-uppercase text-primary">Watch Our Work</h5>
+      <h2 class="fw-bold">Experience Quality in Motion</h2>
+      <p class="text-muted">
+        Discover how our team transforms vision into reality. Watch the video to see our process, precision, and passion in every project.
+      </p>
+    </div>
+
+    <!-- Video Thumbnail -->
+    <div class="video-thumbnail mx-auto" data-bs-toggle="modal" data-bs-target="#videoModal" data-aos="zoom-in">
+      <img src="assets/images/slider-p1.jpg" alt="Watch our video" />
+      <div class="video-overlay"></div>
+      <div class="video-play-btn ripple">
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== Video Modal ==================== -->
+<div class="modal fade video-modal" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content position-relative">
+
+      <!-- Custom close button -->
+      <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <!-- Video -->
+      <div class="ratio ratio-16x9">
+        <iframe id="youtubeVideo" src="" title="YouTube video" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- ==================== Video Section End ==================== -->
+
+
 
     <!--=================== Footer Section Start ===================-->
     <footer class="footer bg-dark text-light pt-5 pb-4" id="footer">
@@ -998,6 +1041,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
       AOS.init();
+    </script> 
+    <script>
+      const videoModal = document.getElementById("videoModal");
+      const youtubeVideo = document.getElementById("youtubeVideo");
+    
+      const videoURL = "https://www.youtube.com/embed/NWHU8wKrhok?si=xmnG0vZKztiy2F5z";
+    
+      videoModal.addEventListener("show.bs.modal", function () {
+        youtubeVideo.src = videoURL;
+      });
+    
+      videoModal.addEventListener("hidden.bs.modal", function () {
+        youtubeVideo.src = "";
+      });
     </script>
+    
   </body>
 </html>

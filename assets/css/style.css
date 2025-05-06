@@ -391,6 +391,7 @@ textarea:focus {
 /* --------------Image Gallery Section Start--------------- */
 .gallery-section{
   overflow: hidden;
+  background-color: #fff;
 }
 /* .gallery-img {
   width: 100%;
@@ -512,6 +513,7 @@ textarea:focus {
 /* --------------Blog Section Start--------------- */
 .blog-section{
   padding:50px 0;
+  background-color: #F8F9FA;
 }
 .blog-card .card-img-top {
   height: 200px;
@@ -529,6 +531,119 @@ textarea:focus {
   margin:12px 0;
 }
 /* --------------Blog Section End--------------- */
+/* --------------Video Section Start--------------- */
+.video-section{
+  padding:50px 0;
+}
+.video-thumbnail {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  max-width: 720px; /* Optional: control max size */
+  margin: auto;
+  border-radius: 10px;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Smooth dark overlay */
+.video-thumbnail::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1); /* Change opacity as needed */
+  transition: background 0.3s ease;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d6efd;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.ripple::before,
+.ripple::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation: ripple 2.5s infinite;
+}
+
+.ripple::after {
+  animation-delay: 0.75s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+/* Modal custom close */
+.video-modal .btn-close-custom {
+  position: absolute;
+  top: -10px;
+  right: -50px;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  z-index: 1055;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%; 
+}
+
+.video-modal .modal-content {
+  background: transparent;
+  border: none;
+}
+
+.video-modal iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .video-modal iframe {
+    height: 500px;
+  }
+}
+/* --------------Video Section End--------------- */
 
 /* --------------Footer Section Start--------------- */
 
