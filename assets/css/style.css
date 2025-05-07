@@ -762,11 +762,16 @@ textarea:focus {
 }
 
 .testimonial-box {
+  background-color: var(--primary-color);
+  color:#fff;
   transition: all 0.3s ease;
 }
 .testimonial-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px); 
+}
+.client-img{ 
+  border-radius: 5px;
+  text-align: left;
 }
 
 /* --------------Testimonial Section End--------------- */
