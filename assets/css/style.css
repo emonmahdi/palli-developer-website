@@ -303,8 +303,16 @@ textarea:focus {
 /* --------------About Section Start--------------- */
 .about-section {
   position: relative;
+  width: 100%;
+  min-height: 100vh; /* Ensures full viewport height */
+  background-image: url('/assets/images/dot-grid.webp');
+  background-repeat: repeat; /* Tiling effect */
+  background-size: auto; /* Keeps pattern size as original */
+  background-position: center; /* Center the pattern */
+  background-attachment: fixed; /* Optional: adds depth on scroll */
   overflow: hidden;
 }
+
 .subtel-pattern-about {
   content: "";
   position: absolute;
@@ -349,10 +357,12 @@ textarea:focus {
 .about-img {
   width: 100%;
   height: auto;
+  max-height: 720px; /* limits height to prevent "too long" issue */
   border-radius: 15px;
-  object-fit: cover;
+  object-fit: cover; /* ensures image fills area without stretching */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
 
 .core-values {
   background-color: var(--primary-color);
@@ -476,7 +486,7 @@ textarea:focus {
   width: 100px;
   height: 40%;
   background-color: var(--accent-color);
-  transition: height 0.4s ease;
+  transition: height 0.6s ease;
   border-radius: 5px;
   z-index: -1;
 }
@@ -635,7 +645,15 @@ textarea:focus {
 /* --------------Project Section End--------------- */
 /* --------------Top Management Section Start--------------- */
 .top-management {
-  background-color: #fff;
+  position: relative;
+  width: 100%;
+  min-height: auto; /* Ensures full viewport height */
+  background-image: url('/assets/images/dot-grid.webp');
+  background-repeat: repeat; /* Tiling effect */
+  background-size: auto; /* Keeps pattern size as original */
+  background-position: center; /* Center the pattern */
+  background-attachment: fixed; /* Optional: adds depth on scroll */
+  overflow: hidden;
 }
 .team-card {
   position: relative;
@@ -684,7 +702,15 @@ textarea:focus {
 /* --------------Top Management Section End--------------- */
 /* --------------Testimonial Section Start---------------   */
 .testimonials-section {
-  background: #f1f4f6;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    color: #111;
+}
+.testimonials-section .section-title, .testimonials-section .section-title p {
+  color:#fff;
 }
 .testimonial-item {
   transition: all 0.3s ease-in-out;
@@ -712,8 +738,15 @@ textarea:focus {
 /* --------------Testimonial Section End--------------- */
 /* --------------Image Gallery Section Start--------------- */
 .gallery-section {
+  position: relative;
+  width: 100%;
+  min-height: auto; /* Ensures full viewport height */
+  background-image: url('/assets/images/dot-grid.webp');
+  background-repeat: repeat; /* Tiling effect */
+  background-size: auto; /* Keeps pattern size as original */
+  background-position: center; /* Center the pattern */
+  background-attachment: fixed; /* Optional: adds depth on scroll */
   overflow: hidden;
-  background-color: #fff;
 }
 /* .gallery-img {
   width: 100%;
@@ -835,7 +868,15 @@ textarea:focus {
 /* --------------Blog Section Start--------------- */
 .blog-section {
   padding: 50px 0;
-  background-color: #f8f9fa;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    color: #111;
+}
+.blog-section .section-title, .blog-section .section-title p {
+  color:#fff;
 }
 .blog-card .card-img-top {
   height: 200px;
@@ -856,6 +897,15 @@ textarea:focus {
 /* --------------Video Section Start--------------- */
 .video-section {
   padding: 50px 0;
+  position: relative;
+  width: 100%;
+  min-height: auto; /* Ensures full viewport height */
+  background-image: url('/assets/images/dot-grid.webp');
+  background-repeat: repeat; /* Tiling effect */
+  background-size: auto; /* Keeps pattern size as original */
+  background-position: center; /* Center the pattern */
+  background-attachment: fixed; /* Optional: adds depth on scroll */
+  overflow: hidden;
 }
 .video-thumbnail {
   position: relative;
