@@ -1,6 +1,6 @@
 new Typed("#typed-text", {
     strings: ["Better Future", "Smarter Homes", "Stronger Communities"],
-    typeSpeed: 60,
-    backSpeed: 30,
+    typeSpeed: 90,
+    backSpeed: 50,
     loop: true
   });
