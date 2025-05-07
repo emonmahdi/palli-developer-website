@@ -119,10 +119,10 @@ textarea:focus {
   margin:0 auto;
   margin-bottom: 50px;
 }
-.section-title h2{
+/* .section-title h2{  
   position: relative;
   display: inline-block;
-  background-color: var(--accent-color); /* Blade color */
+  background-color: var(--accent-color);  
   color: white;
   padding: 12px 24px;
   clip-path: polygon(
@@ -132,7 +132,46 @@ textarea:focus {
     30% 100%, 20% 80%, 10% 100%, 
     0% 80%
   );
+} */
+.section-title h2 {
+  position: relative;
+  display: inline-block;
 }
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: var(--accent-color);
+  clip-path: polygon(
+    0% 100%, 5% 0%, 10% 100%, 15% 0%,
+    20% 100%, 25% 0%, 30% 100%, 35% 0%,
+    40% 100%, 45% 0%, 50% 100%, 55% 0%,
+    60% 100%, 65% 0%, 70% 100%, 75% 0%,
+    80% 100%, 85% 0%, 90% 100%, 95% 0%,
+    100% 100%
+  );
+}
+
+
+/* .section-title h2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: var(--accent-color);
+  clip-path: polygon(
+    0% 100%, 10% 0%, 20% 100%, 30% 0%, 
+    40% 100%, 50% 0%, 60% 100%, 70% 0%, 
+    80% 100%, 90% 0%, 100% 100%
+  );
+} */
+
+
 .section-title p{
   color:var(--text-subtitle);
 }
@@ -140,10 +179,12 @@ textarea:focus {
 /* ------------------------ Navbar Style Start---------------- */
 
 .navbar {
-  background-color: #2f2e41;
+  /* background-color: #2f2e41; */
+  background: transparent;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   transition: top 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
   overflow: hidden;
+  border-bottom: 2px solid var(--accent-color);
   /* transform: translateY(-5px);   */
 }
 
@@ -155,8 +196,12 @@ textarea:focus {
   color: var(--accent-color) !important;
 }
 
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+.nav-link.active{
+  color:var(--accent-color) !important;
+}
+
+/* .hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(241, 244, 246, 0.4)),
     url("/assets/images/slider-p1.jpg") center/cover no-repeat;
   height: 100vh;
   width: 100%;
@@ -164,11 +209,39 @@ textarea:focus {
   display: flex;
   align-items: center;
   overflow: hidden;
+} */
+.hero {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 80%,
+      rgba(241, 244, 246, 0.7) 100%
+    ),
+    url("/assets/images/slider-p1.jpg") center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  /* display: flex;
+  align-items: center; */
+  overflow: hidden;
 }
 
-.hero-content {
+/* .hero-content {
+   display: flex;
+   height: 100%;
+  align-items: center;
   padding-left: 5%;
+} */
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  height: 100%;
+  width: 70%; 
+  align-items: flex-start; /* Align to the left */
+  justify-content: center; /* Center vertically */
+  padding-left: 5%;
+  gap: 1rem; /* Optional: adds space between items */
 }
+
 
 .hero h1 {
   font-size: 3.5rem;
@@ -201,14 +274,16 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #2f2e41;
+  background-color: #000;
   z-index: 9999;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   top: 0;
   opacity: 1;
   transform: translateY(0);
 }
-
+.sticky-nav .nav-link{
+  color:#fff !important;
+}
 /* ===================================================
    Hero Area End
 =================================================== */
@@ -715,6 +790,10 @@ textarea:focus {
   border-radius: 50%; 
 }
 
+.video-modal  {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+}
 .video-modal .modal-content {
   background: transparent;
   border: none;
