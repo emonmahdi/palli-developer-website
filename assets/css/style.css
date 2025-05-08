@@ -155,7 +155,6 @@ a:hover {
   height: 100%;
 }
 
-
 .btn-secondary {
   background: #6c757d;
   color: white;
@@ -186,79 +185,48 @@ textarea:focus {
 
 /* ------------------------ Common Styles Start---------------- */
 .section-title {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
+  text-align: center; 
   margin-bottom: 50px;
 }
-/* .section-title h2{  
-  position: relative;
-  display: inline-block;
-  background-color: var(--accent-color);  
-  color: white;
-  padding: 12px 24px;
-  clip-path: polygon(
-    0% 0%, 100% 0%, 100% 80%, 
-    90% 100%, 80% 80%, 70% 100%, 
-    60% 80%, 50% 100%, 40% 80%, 
-    30% 100%, 20% 80%, 10% 100%, 
-    0% 80%
-  );
-} */
 .section-title h2 {
-  position: relative;
-  display: inline-block;
+  padding: 10px 8px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: 500;
 }
-.section-title h2::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 6px;
-  background-color: var(--accent-color);
-  clip-path: polygon(
-    0% 100%,
-    5% 0%,
-    10% 100%,
-    15% 0%,
-    20% 100%,
-    25% 0%,
-    30% 100%,
-    35% 0%,
-    40% 100%,
-    45% 0%,
-    50% 100%,
-    55% 0%,
-    60% 100%,
-    65% 0%,
-    70% 100%,
-    75% 0%,
-    80% 100%,
-    85% 0%,
-    90% 100%,
-    95% 0%,
-    100% 100%
-  );
+.section-span-text{
+  font-weight: 900;
+  color:var(--accent-color);
 }
-
-/* .section-title h2::before {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: var(--accent-color);
-  clip-path: polygon(
-    0% 100%, 10% 0%, 20% 100%, 30% 0%, 
-    40% 100%, 50% 0%, 60% 100%, 70% 0%, 
-    80% 100%, 90% 0%, 100% 100%
-  );
-} */
-
 .section-title p {
   color: var(--text-subtitle);
+}
+.page-top-breadcrumb{
+  margin: 0;
+  padding: 0;
+}
+.page-top-breadcrumb li{
+  list-style: none;
+  display: inline-block;
+  padding:10px 15px;
+}
+.page-top-breadcrumb li a{
+  color: var(--text-light);
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-top-breadcrumb li a:hover{
+  color: var(--accent-color); 
+}
+.page-top-breadcrumb li i{
+  color: var(--accent-color); 
+  margin-right: 10px;
+}
+.page-top-breadcrumb li.active{
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: bold;
 }
 /* ------------------------ Common Styles End---------------- */
 /* ------------------------ Navbar Style Start---------------- */
@@ -333,7 +301,6 @@ textarea:focus {
   width: 80%;
 }
 
-
 .hero h1 {
   font-size: 3.2rem;
   font-weight: 700;
@@ -384,7 +351,7 @@ textarea:focus {
   position: relative;
   width: 100%;
   min-height: 100vh; /* Ensures full viewport height */
-  background-image: url('/assets/images/dot-grid.webp');
+  background-image: url("/assets/images/dot-grid.webp");
   background-repeat: repeat; /* Tiling effect */
   background-size: auto; /* Keeps pattern size as original */
   background-position: center; /* Center the pattern */
@@ -442,11 +409,9 @@ textarea:focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-
 .core-values {
   background-color: var(--primary-color);
   border-radius: 5px;
-   
 }
 
 .value-card {
@@ -597,11 +562,11 @@ textarea:focus {
   color: #111;
 }
 
-.projects-section .section-title{
-  color:#fff;
+.projects-section .section-title {
+  color: #fff;
 }
-.projects-section .section-title p{
-  color:#fff;
+.projects-section .section-title p {
+  color: #fff;
 }
 
 .project-card {
@@ -675,14 +640,13 @@ textarea:focus {
   text-align: center;
 }
 
-
 /* --------------Project Section End--------------- */
 /* --------------Top Management Section Start--------------- */
 .top-management {
   position: relative;
   width: 100%;
   min-height: auto; /* Ensures full viewport height */
-  background-image: url('/assets/images/dot-grid.webp');
+  background-image: url("/assets/images/dot-grid.webp");
   background-repeat: repeat; /* Tiling effect */
   background-size: auto; /* Keeps pattern size as original */
   background-position: center; /* Center the pattern */
@@ -737,14 +701,15 @@ textarea:focus {
 /* --------------Testimonial Section Start---------------   */
 .testimonials-section {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    color: #111;
+    url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  color: #111;
 }
-.testimonials-section .section-title, .testimonials-section .section-title p {
-  color:#fff;
+.testimonials-section .section-title,
+.testimonials-section .section-title p {
+  color: #fff;
 }
 .testimonial-item {
   transition: all 0.3s ease-in-out;
@@ -763,13 +728,13 @@ textarea:focus {
 
 .testimonial-box {
   background-color: var(--primary-color);
-  color:#fff;
+  color: #fff;
   transition: all 0.3s ease;
 }
 .testimonial-box:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
-.client-img{ 
+.client-img {
   border-radius: 5px;
   text-align: left;
 }
@@ -780,7 +745,7 @@ textarea:focus {
   position: relative;
   width: 100%;
   min-height: auto; /* Ensures full viewport height */
-  background-image: url('/assets/images/dot-grid.webp');
+  background-image: url("/assets/images/dot-grid.webp");
   background-repeat: repeat; /* Tiling effect */
   background-size: auto; /* Keeps pattern size as original */
   background-position: center; /* Center the pattern */
@@ -908,14 +873,15 @@ textarea:focus {
 .blog-section {
   padding: 50px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: center;
-    color: #111;
+    url("/assets/images/projectbg-2.jpg") center/cover no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  color: #111;
 }
-.blog-section .section-title, .blog-section .section-title p {
-  color:#fff;
+.blog-section .section-title,
+.blog-section .section-title p {
+  color: #fff;
 }
 .blog-card .card-img-top {
   height: 200px;
@@ -929,7 +895,7 @@ textarea:focus {
   font-size: 0.85rem;
   padding: 10px 15px;
   background-color: var(--yellow-color);
-  color:#000;
+  color: #000;
   border-bottom-right-radius: 0.5rem;
   border-top-left-radius: 0.9rem;
 }
@@ -947,7 +913,7 @@ textarea:focus {
   position: relative;
   width: 100%;
   min-height: auto; /* Ensures full viewport height */
-  background-image: url('/assets/images/dot-grid.webp');
+  background-image: url("/assets/images/dot-grid.webp");
   background-repeat: repeat; /* Tiling effect */
   background-size: auto; /* Keeps pattern size as original */
   background-position: center; /* Center the pattern */
@@ -1156,3 +1122,223 @@ textarea:focus {
 }
 
 /* --------------Footer Section End--------------- */
+/* --------------Contact Page Design Start--------------- */
+.contact-area {
+   padding:50px 0;
+}
+.contact-area .contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-area .contact-info .info-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 50px 16px;
+  margin-bottom: 20px;
+  background: url(../img/item-bg-2.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.contact-area .contact-info .info-item:first-child {
+  background: url(../img/item-bg-1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.contact-area .contact-info .info-item:last-child {
+  background: url(../img/item-bg-3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.contact-area .contact-info .info-item::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 30, 76, 0.8);
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.contact-area .contact-info .info-item i {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+.contact-area .contact-info .info-item .info-content {
+  position: relative;
+  /* padding-left: 20px; */
+  text-align: center;
+  display: inline-block;
+}
+
+.contact-area .contact-info .info-item .info-content p {
+  text-transform: capitalize;
+  color: #ffbc13;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.contact-area .contact-info .info-item .info-content a {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contact-area .contact-info .info-item:hover::after {
+  background: var(--accent-color);
+}
+
+.contact-area .contact-info .info-item:hover i {
+  color: #001e4c;
+}
+
+.contact-area .contact-info .info-item:hover .info-content p {
+  color: #ffffff;
+}
+
+.contact-area .contact-info .info-item:hover .info-content a {
+  color: #001e4c;
+}
+
+.contact-area .contact-info:last-child {
+  margin-bottom: 0;
+}
+
+.contact-area .contact-form {
+  background: #fff3cf;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-area .contact-form .content {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.contact-area .contact-form .content h3 {
+  font-size: 30px;
+  margin-top: -7px;
+  margin-bottom: 0;
+  color: #001e4c;
+}
+
+.contact-area .contact-form .form-group {
+  margin-bottom: 25px;
+}
+
+.contact-area .contact-form .form-control {
+  width: 100%;
+  background: #ffffff;
+  border: none;
+}
+
+.contact-area .contact-form .cta-btn {
+  margin-top: 25px;
+}
+
+.contact-area .contact-form .cta-btn .btn-pdl {
+  display: block; 
+  width: 100%;
+  border:none;
+}
+
+.contact-area .contact-form .cta-btn .primary-btn::before, .contact-area .contact-form .cta-btn .primary-btn::after {
+  background-color: #ffbc13;
+}
+
+.contact-area .contact-form .cta-btn .primary-btn:hover {
+  color: #ffffff;
+}
+
+.contact-area .contact-form .checkbox label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #1a1a1a;
+}
+
+.contact-area .contact-form .checkbox label a {
+  color: #ffbc13;
+}
+
+.contact-area .contact-form .checkbox [type="checkbox"]:checked,
+.contact-area .contact-form .checkbox [type="checkbox"]:not(:checked) {
+  display: none;
+}
+
+.contact-area .contact-form .checkbox [type="checkbox"]:checked + label:after,
+.contact-area .contact-form .checkbox [type="checkbox"]:not(:checked) + label:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #ffbc13;
+  position: absolute;
+  top: 5.5px;
+  left: 6px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact-area .contact-form .checkbox [type="checkbox"]:checked + label::before,
+.contact-area .contact-form .checkbox [type="checkbox"]:not(:checked) + label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contact-area .contact-form .checkbox [type="checkbox"]:checked + label::before {
+  border: 1px solid #ffbc13;
+  background: unset;
+}
+
+.contact-area .contact-form .checkbox [type="checkbox"]:not(:checked) + label:after {
+  display: none;
+}
+
+.contact-area .contact-map {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+  border: none;
+  margin: 30px 0;
+}
+
+.contact-area .contact-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 0;
+}
+
+/* --------------Contact Page Design End--------------- */

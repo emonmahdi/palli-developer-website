@@ -7,9 +7,9 @@
 05.	Projects - Done
 06.	Testimonials -  Done
 07.	Images - Done
-08.	Videos - 
+08.	Videos - Done
 09.	Blog - Done
-10.	Contact - 
+10.	Contact -  
 
 
 Old Site: https://pallidevelopersbd.com/ 
@@ -21,7 +21,7 @@ https://constrax.themescamp.com/industrial/
 
 https://constrax.themescamp.com/public/
 
-
+https://templates.hibootstrap.com/constik/default/index.html
 
 
 
