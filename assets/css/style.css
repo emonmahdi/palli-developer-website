@@ -234,10 +234,10 @@ textarea:focus {
 .navbar {
   /* background-color: #2f2e41; */
   background: transparent;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); */
   transition: top 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
   overflow: hidden;
-  border-bottom: 2px solid var(--accent-color);
+  /* border-bottom: 2px solid var(--accent-color); */
   /* transform: translateY(-5px);   */
 }
 
@@ -332,7 +332,7 @@ textarea:focus {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #000;
+  background-color: var(--accent-color);
   z-index: 9999;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   top: 0;
@@ -1383,3 +1383,379 @@ textarea:focus {
 }
 
 /* --------------Contact Page Design End--------------- */
+/* --------------About Page Design Start--------------- */
+/* -----------------------------------------
+  Service Details CSS
+----------------------------------------- */
+.service-details-area {
+  padding: 60px 0;
+}
+.service-details-area, .terms-area, .privacy-area {
+  padding-bottom: 60px;
+}
+
+.service-details-area .image, .terms-area .image, .privacy-area .image {
+  margin-bottom: 40px;
+}
+
+.service-details-area .project-info, .terms-area .project-info, .privacy-area .project-info {
+  position: relative;
+  padding: 30px 25px;
+  background: var(--accent-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-details-area .project-info h3, .terms-area .project-info h3, .privacy-area .project-info h3 {
+  line-height: 1;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.service-details-area .project-info p, .terms-area .project-info p, .privacy-area .project-info p {
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.service-details-area .project-info p:last-child, .terms-area .project-info p:last-child, .privacy-area .project-info p:last-child {
+  margin-bottom: 20px;
+}
+
+.service-details-area .project-info .info-list, .terms-area .project-info .info-list, .privacy-area .project-info .info-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.service-details-area .project-info .info-list li, .terms-area .project-info .info-list li, .privacy-area .project-info .info-list li {
+  position: relative;
+  padding: 12px 14px;
+  background: #fff9e9;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service-details-area .project-info .info-list li i, .terms-area .project-info .info-list li i, .privacy-area .project-info .info-list li i {
+  vertical-align: -2px;
+  margin-right: 8px;
+  color: #001e4c;
+}
+
+.service-details-area .project-info .info-list li a, .terms-area .project-info .info-list li a, .privacy-area .project-info .info-list li a {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #001e4c;
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.service-details-area .project-info .info-list li span, .terms-area .project-info .info-list li span, .privacy-area .project-info .info-list li span {
+  display: inline-block;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.service-details-area .project-info .info-list li:last-child, .terms-area .project-info .info-list li:last-child, .privacy-area .project-info .info-list li:last-child {
+  margin-bottom: 0;
+}
+
+.service-details-area .content, .terms-area .content, .privacy-area .content {
+  margin-bottom: 40px;
+}
+
+.service-details-area .content h2.title, .terms-area .content h2.title, .privacy-area .content h2.title {
+  font-size: 45px;
+  line-height: 1.3;
+  margin-top: -10px;
+  color: #001e4c;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.service-details-area .content h2.title span, .terms-area .content h2.title span, .privacy-area .content h2.title span {
+  color: var(--accent-color);
+}
+
+.service-details-area .content p, .terms-area .content p, .privacy-area .content p {
+  color: #2c2c2c;
+}
+
+.service-details-area .projects-area .content, .terms-area .projects-area .content, .privacy-area .projects-area .content {
+  margin-bottom: 40px;
+}
+
+.service-details-area .projects-area .content h2, .terms-area .projects-area .content h2, .privacy-area .projects-area .content h2 {
+  margin-bottom: 25px;
+  line-height: 1.3;
+  margin-top: -10px;
+  color: #001e4c;
+}
+
+.service-details-area .projects-area .item-list ul, .terms-area .projects-area .item-list ul, .privacy-area .projects-area .item-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.service-details-area .projects-area .item-list ul li, .terms-area .projects-area .item-list ul li, .privacy-area .projects-area .item-list ul li {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.8;
+  color: #2c2c2c;
+}
+
+.service-details-area .projects-area .item-list ul li i, .terms-area .projects-area .item-list ul li i, .privacy-area .projects-area .item-list ul li i {
+  margin-left: -25px;
+  margin-right: 5px;
+  color: #ffbc13;
+  vertical-align: -2px;
+}
+
+/* -----------------------------------------
+  service Details CSS
+----------------------------------------- */
+.service-details-area .service-details-desc, .terms-area .service-details-desc, .privacy-area .service-details-desc {
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.service-details-area .service-details-desc .image, .terms-area .service-details-desc .image, .privacy-area .service-details-desc .image {
+  margin-bottom: 25px;
+}
+
+.service-details-area .service-details-desc .content, .terms-area .service-details-desc .content, .privacy-area .service-details-desc .content {
+  margin-bottom: 25px;
+}
+
+.service-details-area .service-details-desc .content h2, .terms-area .service-details-desc .content h2, .privacy-area .service-details-desc .content h2 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-top: -5px;
+  color: #001e4c;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.service-details-area .service-details-desc .content h2 span, .terms-area .service-details-desc .content h2 span, .privacy-area .service-details-desc .content h2 span {
+  color: #ffbc13;
+}
+
+.service-details-area .service-details-desc .content p, .terms-area .service-details-desc .content p, .privacy-area .service-details-desc .content p {
+  color: #2c2c2c;
+}
+
+.service-details-area .service-details-desc .services-area .content h2, .terms-area .service-details-desc .services-area .content h2, .privacy-area .service-details-desc .services-area .content h2 {
+  margin-bottom: 25px;
+  line-height: 1.3;
+  color: #001e4c;
+}
+
+.service-details-area .service-details-desc .services-area .item-list, .terms-area .service-details-desc .services-area .item-list, .privacy-area .service-details-desc .services-area .item-list {
+  margin-bottom: 25px;
+}
+
+.service-details-area .service-details-desc .services-area .item-list ul, .terms-area .service-details-desc .services-area .item-list ul, .privacy-area .service-details-desc .services-area .item-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.service-details-area .service-details-desc .services-area .item-list ul li, .terms-area .service-details-desc .services-area .item-list ul li, .privacy-area .service-details-desc .services-area .item-list ul li {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.8;
+  color: #2c2c2c;
+}
+
+.service-details-area .service-details-desc .services-area .item-list ul li i, .terms-area .service-details-desc .services-area .item-list ul li i, .privacy-area .service-details-desc .services-area .item-list ul li i {
+  margin-left: -25px;
+  margin-right: 5px;
+  color: #ffbc13;
+  vertical-align: -2px;
+}
+
+.service-details-area .service-details-desc .services-area .item-list ul li:last-child, .terms-area .service-details-desc .services-area .item-list ul li:last-child, .privacy-area .service-details-desc .services-area .item-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.service-details-area .service-details-desc .service-details-slider, .terms-area .service-details-desc .service-details-slider, .privacy-area .service-details-desc .service-details-slider {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.service-details-area .service-details-desc .service-details-slider .owl-nav, .terms-area .service-details-desc .service-details-slider .owl-nav, .privacy-area .service-details-desc .service-details-slider .owl-nav {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.service-details-area .widget-area, .terms-area .widget-area, .privacy-area .widget-area {
+  margin-bottom: 30px;
+}
+
+.service-details-area .widget-area .widget, .terms-area .widget-area .widget, .privacy-area .widget-area .widget {
+  margin-bottom: 25px;
+}
+
+.service-details-area .widget-area .nav-list, .terms-area .widget-area .nav-list, .privacy-area .widget-area .nav-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.service-details-area .widget-area .nav-list li, .terms-area .widget-area .nav-list li, .privacy-area .widget-area .nav-list li {
+  position: relative;
+  padding: 14px 16px;
+  background: #fff9e9;
+  margin-bottom: 15px;
+}
+
+.service-details-area .widget-area .nav-list li:last-child, .terms-area .widget-area .nav-list li:last-child, .privacy-area .widget-area .nav-list li:last-child {
+  margin-bottom: 0;
+}
+
+.service-details-area .widget-area .nav-list li a, .terms-area .widget-area .nav-list li a, .privacy-area .widget-area .nav-list li a {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #001e4c;
+}
+
+.service-details-area .widget-area .nav-list li i, .terms-area .widget-area .nav-list li i, .privacy-area .widget-area .nav-list li i {
+  float: right;
+  margin-right: 8px;
+  margin-top: 4px;
+  color: #001e4c;
+  -webkit-transform: rotateZ(-180deg);
+          transform: rotateZ(-180deg);
+}
+
+.service-details-area .widget-area .nav-list li::after, .terms-area .widget-area .nav-list li::after, .privacy-area .widget-area .nav-list li::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  height: calc(100% - 10px);
+  left: 6px;
+  width: 2px;
+  background: #ffbc13;
+}
+
+.service-details-area .widget-area .nav-list li.active, .terms-area .widget-area .nav-list li.active, .privacy-area .widget-area .nav-list li.active {
+  background: #ffbc13;
+}
+
+.service-details-area .widget-area .nav-list li.active::after, .terms-area .widget-area .nav-list li.active::after, .privacy-area .widget-area .nav-list li.active::after {
+  background: #ffffff;
+}
+
+.service-details-area .widget-area .nav-list li.active i, .terms-area .widget-area .nav-list li.active i, .privacy-area .widget-area .nav-list li.active i {
+  -webkit-transform: unset;
+          transform: unset;
+  color: #ffffff;
+}
+
+.service-details-area .widget-area .nav-list li.active a, .terms-area .widget-area .nav-list li.active a, .privacy-area .widget-area .nav-list li.active a {
+  color: #ffffff;
+}
+
+.service-details-area .widget-area .contact-form, .terms-area .widget-area .contact-form, .privacy-area .widget-area .contact-form {
+  position: relative;
+  padding: 25px 25px;
+  background: #fff3cf;
+}
+
+.service-details-area .widget-area .contact-form .primary-btn, .terms-area .widget-area .contact-form .primary-btn, .privacy-area .widget-area .contact-form .primary-btn {
+  width: 100%;
+  color: #ffffff;
+  background: #001e4c;
+}
+
+.service-details-area .widget-area .contact-form .primary-btn::before, .terms-area .widget-area .contact-form .primary-btn::before, .privacy-area .widget-area .contact-form .primary-btn::before, .service-details-area .widget-area .contact-form .primary-btn::after, .terms-area .widget-area .contact-form .primary-btn::after, .privacy-area .widget-area .contact-form .primary-btn::after {
+  background-color: #ffbc13;
+}
+
+.service-details-area .widget-area .contact-form .primary-btn:hover, .terms-area .widget-area .contact-form .primary-btn:hover, .privacy-area .widget-area .contact-form .primary-btn:hover {
+  color: #ffffff;
+}
+
+.service-details-area .widget-area .download-item .download-item-single, .terms-area .widget-area .download-item .download-item-single, .privacy-area .widget-area .download-item .download-item-single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: 25px 60px;
+  margin-bottom: 25px;
+  background: url(../img/item-bg-2.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service-details-area .widget-area .download-item .download-item-single:first-child, .terms-area .widget-area .download-item .download-item-single:first-child, .privacy-area .widget-area .download-item .download-item-single:first-child {
+  background: url(../img/item-bg-1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.service-details-area .widget-area .download-item .download-item-single:last-child, .terms-area .widget-area .download-item .download-item-single:last-child, .privacy-area .widget-area .download-item .download-item-single:last-child {
+  background: url(../img/item-bg-3.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.service-details-area .widget-area .download-item .download-item-single::after, .terms-area .widget-area .download-item .download-item-single::after, .privacy-area .widget-area .download-item .download-item-single::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 30, 76, 0.8);
+}
+
+.service-details-area .widget-area .download-item .download-item-single i, .terms-area .widget-area .download-item .download-item-single i, .privacy-area .widget-area .download-item .download-item-single i {
+  width: 60px;
+  height: 60px;
+  line-height: 57px;
+  background: #ffffff;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+  font-size: 28px;
+}
+
+.service-details-area .widget-area .download-item .download-item-single .item-content, .terms-area .widget-area .download-item .download-item-single .item-content, .privacy-area .widget-area .download-item .download-item-single .item-content {
+  padding-left: 16px;
+  z-index: 1;
+}
+
+.service-details-area .widget-area .download-item .download-item-single .item-content h4, .terms-area .widget-area .download-item .download-item-single .item-content h4, .privacy-area .widget-area .download-item .download-item-single .item-content h4 {
+  color: #ffffff;
+  margin-top: -5px;
+  margin-bottom: 0;
+}
+
+.service-details-area h3.sub-title, .terms-area h3.sub-title, .privacy-area h3.sub-title {
+  line-height: 1;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #001e4c;
+}
+
+/* --------------About Page Design End--------------- */
