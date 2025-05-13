@@ -15,7 +15,7 @@ const images = [
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
 
-  document.querySelectorAll(".overlay").forEach((el) => {
+  document.querySelectorAll(".gallery-item .overlay").forEach((el) => {
     el.addEventListener("click", (e) => {
       currentIndex = parseInt(e.currentTarget.getAttribute("data-index"));
       popupImage.src = images[currentIndex];
