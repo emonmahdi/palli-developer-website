@@ -1,15 +1,15 @@
 পল্লি ডেভেলপার  - Construction and Building Development site
 
 01.	Home 
-02.	About Us - Done
+02.	About Us + Page- Done 
 03.	MD Speech - Done
 04.	Top Management - Done
-05.	Projects - Done
+05.	Projects + Page- Done
 06.	Testimonials -  Done
-07.	Images - Done
+07.	Images + Gallery Page- Done
 08.	Videos - Done
-09.	Blog - Done
-10.	Contact -  
+09.	Blog + Page + Single Page- Done
+10.	Contact + Page-  Done
 
 
 Old Site: https://pallidevelopersbd.com/ 
