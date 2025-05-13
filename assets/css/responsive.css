@@ -1,6 +1,20 @@
-@media (max-width: 768px) {
-    .about-img {
-      max-height: 520px;
-    }
+@media (max-width: 479px) {
+  .hero-container {
+    height: 85vh; /* full screen height */
   }
-  
+  .hero-content {
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    max-height: 520px;
+  }
+}
