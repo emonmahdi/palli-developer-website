@@ -1,4 +1,7 @@
 @media (max-width: 479px) {
+  .navbar-nav {
+    margin: 30px 20px !important;
+  }
   .hero-container {
     height: 85vh; /* full screen height */
   }

@@ -248,6 +248,12 @@ textarea:focus {
   transition: all 0.3s ease;
 }
 
+.navbar-toggler{
+  border: none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 .navbar-brand,
 .nav-link {
   color: #fff !important;
@@ -360,6 +366,10 @@ textarea:focus {
 
 .sticky-nav .nav-link {
   color: #fff !important;
+  transition: 0.3s !important;
+}
+.sticky-nav .nav-link:hover {
+  color: var(--primary-color) !important;
 }
 .sticky-nav .nav-link.active {
   color: var(--primary-color) !important;
