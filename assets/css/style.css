@@ -25,6 +25,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -209,11 +210,12 @@ textarea:focus {
 .page-top-breadcrumb li{
   list-style: none;
   display: inline-block;
-  padding:10px 15px;
+  padding:10px 12px;
+  font-size: 16px;
 }
 .page-top-breadcrumb li a{
   color: var(--text-light);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
 .page-top-breadcrumb li a:hover{
@@ -225,9 +227,27 @@ textarea:focus {
 }
 .page-top-breadcrumb li.active{
   color: var(--accent-color);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
 }
+
+/* --------------------Common Page Styles Start ------------------ */
+.common-page-header{ 
+  background: linear-gradient( 
+      rgba(0, 0, 0, 0.5), rgba(0,0,0,.8)   
+    ),
+    url("/assets/images/slider-p1.jpg") center/cover no-repeat !important;
+  height: 50vh !important;  
+  overflow: hidden !important;
+}
+.common-hero-container{
+  padding-top: 60px !important; 
+}
+.common-hero-container h2{
+  font-size: 25x !important;
+}
+
+/* --------------------Common Page Styles End ------------------ */
 /* ------------------------ Common Styles End---------------- */
 /* ------------------------ Navbar Style Start---------------- */
 
@@ -1609,7 +1629,8 @@ textarea:focus {
 }
 
 /* --------------Contact Page Design End--------------- */
-/* --------------About Page Design Start--------------- */
+/* --------------About Page Design Start--------------- */ 
+
 /* -----------------------------------------
   Service Details CSS
 ----------------------------------------- */
