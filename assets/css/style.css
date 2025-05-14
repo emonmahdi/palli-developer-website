@@ -254,10 +254,10 @@ textarea:focus {
 .hero {
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.6) 80%,
-      rgba(241, 244, 246, 0.7) 100%
+      rgba(0, 0, 0, 0.5) 80%,
+      rgba(241, 244, 246, 0.4) 100%
     ),
-    url("../images/slider-p1.jpg") center/cover no-repeat;
+    url("../images/header.jpeg") center/cover no-repeat;
   height: 100vh;
   width: 100%;
   color: white; 
@@ -754,7 +754,9 @@ textarea:focus {
   color:var(--text-light) !important;
   opacity: 1;
 }
-
+.reviews span i.yellow-star{
+  color:#FCD10A;
+}
 /* --------------Testimonial Section End--------------- */
 /* --------------Image Gallery Section Start--------------- */
 .gallery-section {
