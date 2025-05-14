@@ -774,12 +774,28 @@ textarea:focus {
   transform: translateY(-5px);
 }
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-size: 50% 50%;
   padding: 10px;
+  opacity: 1;
+} */
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--accent-color); /* Full opacity background */
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  opacity: 1;
+  transition: background-color 0.3s ease;
 }
-
+.carousel-control-next, .carousel-control-prev,
+.carousel-control-next, .carousel-control-next
+{
+  opacity: 1 !important;
+  width: 5% !important;
+} 
 .testimonial-box {
   background-color: var(--primary-color);
   color: #fff;
