@@ -7,6 +7,7 @@
   --primary-color: #0a1f2e; /* Dark navy blue */
   --yellow-color: #ffc107;
   --accent-color: #f47822;
+  --heading-color: #3F1A1A;
   --text-light: #f9f9f9;
   --text-subtitle: #595c5f;
   --navbar-bg: #2f2e41;
@@ -691,6 +692,7 @@ textarea:focus {
 .projects-section .overlay-content {
   text-align: center;
 }
+ 
 
 /* --------------Project Section End--------------- */
 /* --------------Top Management Section Start--------------- */

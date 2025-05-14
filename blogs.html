@@ -39,6 +39,26 @@
 
     <!-- responsiveness -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <style>
+      #blog {
+        background: linear-gradient(
+            rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.9)
+          )
+          center/cover no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center;
+        color: #111;
+        overflow: hidden;
+      }
+      #blog .section-title,
+      #blog .section-title p {
+        color: #343a40;
+      }
+    </style>
+
   </head>
   <body>
     <!-- Hero Section -->
@@ -111,7 +131,7 @@
       </div>
     </header>
         <!-- ==================== Blog Section Start ==================== -->
-    <section class="blog-section">
+    <section class="blog-section" id="blog">
       <div class="container"> 
         <div class="section-title" data-aos="fade-up">
           <div class="d-flex align-items-center justify-content-center gap-1">
